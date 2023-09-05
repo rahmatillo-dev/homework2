@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1619px;
+    height: 850px;
+    margin: 0 auto;
+    background: linear-gradient(75deg, #FF9292 -7.33%, #DE5150 90.21%);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    
+}
+
+.navbar_img {
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.header_text p {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 30.8px */
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+
+.header_text h1 {
+    width: 517px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 99.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 99.17px */
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.header_money {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.header_money h2 {
+    color: #FFF;
+
+
+    font-family: Rubik;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 57.2px */
+}
+
+.header_money p {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: strikethrough;
+
+}
+
+button {
+    display: flex;
+    width: 191px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 62px;
+    background: #FFF;
+    color: #FF4948;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 30.8px */
+}
